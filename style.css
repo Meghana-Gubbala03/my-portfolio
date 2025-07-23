@@ -7,31 +7,6 @@
 }
 
 body {
-    #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #0a0a0a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10000;
-  transition: opacity 0.5s ease;
-}
-
-#preloader.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-  background-color: #0a0a0a;
-  color: white;
-  font-family: 'Orbitron', sans-serif;
-  scroll-behavior: smooth;
-}
-
 #hero {
   height: 100vh;
   display: flex;
